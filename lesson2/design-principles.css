@@ -1,0 +1,245 @@
+@media screen and (max-width: 300px){
+    #content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        color: white;
+    }
+
+    img {
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+
+    h3 {
+        background-color: #59788e;
+        color: white;
+        margin: 0 0 -5px -5px;
+        padding-left: 5px;
+    }
+    
+    
+    #header {
+        text-align: center;
+        background-color: #1f456e;
+    }
+    
+    #main {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        
+    }
+    
+    #firstprinciple {
+        background-color: lightgray;
+        grid-row: 1;
+        height: 100%;
+        border-radius: 3px 3px 0 0;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+    }
+    
+    #secondprinciple {
+        background-color: lightgray;
+        grid-row: 2;
+        height: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 20px;
+    }
+    
+    #thirdprinciple {
+        background-color: lightgray;
+        grid-row: 3;
+        height: 100%;
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: left;
+        border-style: solid;
+        border-width: 1px;
+        margin-top: 40px;
+    }
+    
+    #footer {
+        margin-top: 60px;
+        background-color: #1f456e;
+        color: white;
+        font-size: .75rem;
+        margin-top: 50px;
+    }
+    
+}
+
+@media screen and (min-width: 301px){
+    #content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        color: white;
+    }
+
+    img {
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+
+    h3 {
+        background-color: #59788e;
+        color: white;
+        margin: 0 0 -5px -5px;
+        padding-left: 5px;
+    }
+    
+    
+    #header {
+        text-align: center;
+        background-color: #1f456e;
+    }
+    
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-template-rows: max-content;
+        column-gap: 20px;
+    }
+    
+    #firstprinciple {
+        background-color: lightgray;
+        grid-column: 1;
+        grid-row: 1;
+        float: left;
+        height: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+    }
+    
+    #secondprinciple {
+        background-color: lightgray;
+        grid-column: 2;
+        grid-row: 1;
+        float: right;
+        height: fit-content;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+    }
+    
+    #thirdprinciple {
+        background-color: lightgray;
+        grid-column: 1/3;
+        grid-row: 2;
+        margin-top: 20px;
+        padding-left: 5px;
+        padding-right: 5px;
+        height: auto;
+    }
+    
+    #footer {
+        background-color: #1f456e;
+        color: white;
+        font-size: 1rem;
+        
+    }
+    
+}
+
+
+@media screen and (min-width: 601px){
+    #content {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        color: white;
+    }
+
+    h2 {
+        font-size: 1.25rem;
+        color: white;
+    }
+
+    img {
+        max-inline-size: 100%;
+        block-size: auto;
+    }
+
+    h3 {
+        background-color: #59788e;
+        color: white;
+        margin: 0 0 -5px -5px;
+        padding-left: 5px;
+    }
+    
+    
+    #header {
+        text-align: center;
+        background-color: #1f456e;
+    }
+    
+    #main {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1;
+        grid-gap: 20px;
+        
+    }
+    
+    #firstprinciple {
+        grid-column: 1;
+        grid-row: 1;
+        float: left;
+        margin-top: 0px;
+        height: auto;
+    }
+    
+    #secondprinciple {
+        grid-column: 2;
+        grid-row: 1;
+        margin-top: 0px;
+        height: auto;
+    }
+    
+    #thirdprinciple {
+        grid-column: 3;
+        grid-row: 1;
+        float: right;
+        margin-top: 0px;
+        height: auto;
+    }
+   
+    
+    #footer {
+        margin-top: 60px;
+        background-color: #1f456e;
+        color: white;
+        font-size: .75rem;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+}
+
+

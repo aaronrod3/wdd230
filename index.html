@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portal</title>
-    <link rel="stylesheet" href="portal.css">
+    <link rel="stylesheet" href="styles/portal.css">
 </head>
 <body>
     <div id="content">
@@ -32,8 +32,12 @@
         </main>
         <footer id="footer">
             <p id="footername">&copy 2023 .:|:. Aaron B. Rodriguez .:|:. North Carolina</p>
-            <p id="lastupdated">Last Updated:</p>
+            <p>Last Updated:</p><a id="lastUpdated"></a>
         </footer>
+        <script>
+            const date = new Date(document.lastModified);
+            document.getElementById("lastUpdated").innerHTML = date;
+        </script>
     </div>
 </body>
 </html>

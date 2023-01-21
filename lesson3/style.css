@@ -1,0 +1,30 @@
+#content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#header {
+    grid-row: 1;
+    height: min-content;
+    text-align: center;
+}
+
+#logo {
+    height: 300px;
+    width: 300px;
+}
+
+#main {
+    grid-row: 2;
+    height: auto;
+    text-align: center;
+}
+
+#color1{
+    background-color: #AADCEE;
+}
+
+#color2 {
+    background-color: #77AF9C;
+}

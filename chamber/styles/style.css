@@ -106,7 +106,13 @@
         width: 100%;
         height: 200px;
         margin-top: 20px;
+        background-image: url(/wdd230/chamber/images/sneadsferryhero.jpg);
     }
+
+    /* #heroimg {
+        width: 100%;
+        height: 100%;
+    } */
 
     #joinElement {
         width: 200px;
@@ -245,11 +251,6 @@
         font-size: 1.15rem;
     }
 
-    img{
-        max-inline-size: 100%;
-        block-size: auto;
-    }
-
     /* header */
 
     #header {
@@ -340,9 +341,10 @@
         width: 100%;
         height: 200px;
         margin-top: 20px;
+        background-image: url(/wdd230/chamber/images/sneadsferryhero-medium.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
-
-    
 
     #joinElement {
         grid-column: 1/4;
@@ -461,13 +463,6 @@
         font-size: 1.15rem;
     }
 
-    img{
-        max-inline-size: 100%;
-        block-size: auto;
-    }
-
-    /* header */
-
     #header {
         display: grid;
         grid-template-rows: 100px 50px;
@@ -540,62 +535,84 @@
 
     #main {
         display: grid;
-        grid-template-columns: 4(25%);
+        grid-template-columns: 25% 50% 25%;
         grid-template-rows: 3(1fr);
         margin-left: 0px;
     }
 
     #hero {
-        grid-column: 2/4;
+        grid-column: 2;
         grid-row: 1/3;
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        width: auto;
+        height: auto;
+        margin: 10px 0px 10px 0px;
+        background-image: url(/wdd230/chamber/images/sneadsferryhero-large.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #eventElement {
         grid-column: 1;
         grid-row: 1;
-        width: 100%;
-        height: 200px;
-        margin: 0;
+        width: auto;
+        height: auto;
+        margin: 10px 10px 10px 10px;
     }
 
     #weatherElement {
         grid-column: 1;
         grid-row: 2;
-        width: 100%;
-        height: 200px;
-        margin: 0;
+        width: auto;
+        height: auto;
+        margin: 10px 10px 10px 10px;
+    }
+
+    #joinElement {
+        grid-column: 1;
+        grid-row: 3;
+        width: auto;
+        height: auto;
+        margin: 10px 10px 10px 10px;
     }
 
     #newsElement {
-        grid-column: 2/4;
+        grid-column: 2;
         grid-row: 3;
-        width: 100%;
-        height: 200px;
-        margin: 0;
+        width: auto;
+        height: auto;
+        margin: 10px 10px 10px 10px;
     }
 
     #spotlightElement {
-        grid-column: 4;
-        grid-row: 1/3;
-        width: 100%;
-        height: 400px;
-        margin: 0;
+        grid-column: 3;
+        grid-row: 1/4;
+        width: auto;
+        height: auto;
+        margin: 10px 10px 10px 10px;
         display: grid;
-        grid-template-columns: 1;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3(1/3);
     }
 
     #spotlight1 {
         grid-column: 1;
         grid-row: 1;
+        border: solid 1px;
+        margin: 5px;
     }
 
     #spotlight2 {
-        grid-row: 2;
         grid-column: 1;
+        grid-row: 2;
+        border: solid 1px;
+        margin: 5px;
+    }
+
+    #spotlight3 {
+        grid-column: 1;
+        grid-row: 3;
+        border: solid 1px;
+        margin: 5px;
     }
 
     /* Footer */

@@ -97,7 +97,7 @@
 
     #main {
         display: grid;
-        grid-template-rows: 5(1fr);
+        grid-template-rows: auto;
         margin: 5px;
     }
 
@@ -108,11 +108,6 @@
         margin-top: 20px;
         background-image: url(/wdd230/chamber/images/sneadsferryhero.jpg);
     }
-
-    /* #heroimg {
-        width: 100%;
-        height: 100%;
-    } */
 
     #joinElement {
         width: 200px;
@@ -134,13 +129,50 @@
         font-weight: bold;
     }
 
-    #eventElement {
+    #eventElement, #discover-img-1 {
         grid-row: 2;
         width: 100%;
         height: 200px;
         border: 1px solid;
         margin-top: 10px;
     }
+
+    
+
+    #discover-img-1 {
+        background-image: url(/wdd230/chamber/images/northtopsail.jpg);
+        text-align: center;
+    }
+
+    #discover-img-2 {
+        grid-row: 3;
+        width: 100%;
+        height: 200px;
+        border: 1px solid;
+        margin-top: 10px;
+        background-image: url(/wdd230/chamber/images/boatdock.jpg);
+        text-align: center;
+    }
+    #discover-img-3 {
+        background-image: url(/wdd230/chamber/images/sharkstore.jpg);
+    }
+    #discover-img-4 {
+        background-image: url(/wdd230/chamber/images/shrimpfest.jpg);
+        grid-row: 5;
+        width: 100%;
+        height: 200px;
+        border: 1px solid;
+        margin-top: 10px;
+    }
+    #discover-img-5 {
+        background-image: url(/wdd230/chamber/images/sneadsferrygolf.jpg);
+        grid-row: 6;
+        width: 100%;
+        height: 200px;
+        border: 1px solid;
+        margin-top: 10px;
+    }
+
 
     #weatherElement {
         grid-row: 3;
@@ -185,7 +217,7 @@
     }
 
 
-    #newsElement {
+    #newsElement, #discover-img-3 {
         grid-row: 4;
         width: 100%;
         height: 200px;
@@ -335,13 +367,15 @@
         background-color: #AADCEE;
     }
 
-    #hero {
+    #main-hero {
         grid-column: 1/4;
         grid-row: 1;
+    }
+    .hero {
+        background-image: url(/wdd230/chamber/images/sneadsferryhero-medium.jpg);
         width: 100%;
         height: 200px;
         margin-top: 20px;
-        background-image: url(/wdd230/chamber/images/sneadsferryhero-medium.jpg);
         background-repeat: no-repeat;
         background-position: center;
     }
@@ -415,6 +449,72 @@
         grid-column: 2;
         border: 1px solid;
         margin: 5px;
+    }
+
+
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 6(1fr);
+        margin: 5px;
+    }
+
+    #discover-hero {
+        grid-column: 1/3;
+        grid-row: 1;
+    }
+
+    .discover-img {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #discover-img-1 {
+        background-image: url(/wdd230/chamber/images/northtopsail.jpg);
+        text-align: center;
+        
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
+    }
+
+    #discover-img-2 {
+        background-image: url(/wdd230/chamber/images/boatdock.jpg);
+        text-align: center;
+        grid-column: 2;
+        grid-row: 3;
+        width: 100%;
+        height: 200px;
+        margin: 0 5px 0 0;
+    }
+    #discover-img-3 {
+        background-image: url(/wdd230/chamber/images/sharkstore.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 4;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
+    }
+    #discover-img-4 {
+        background-image: url(/wdd230/chamber/images/shrimpfest.jpg);
+        text-align: center;
+        grid-column: 2;
+        grid-row: 5;
+        width: 100%;
+        height: 200px;
+        margin: 0 5px 0 0;
+    }
+    #discover-img-5 {
+        background-image: url(/wdd230/chamber/images/sneadsferrygolf.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 6;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
     }
 
     /* Footer */
@@ -540,12 +640,15 @@
         margin-left: 0px;
     }
 
-    #hero {
+    #main-hero {
         grid-column: 2;
         grid-row: 1/3;
         width: auto;
         height: auto;
         margin: 10px 0px 10px 0px;
+    }
+
+    .hero {
         background-image: url(/wdd230/chamber/images/sneadsferryhero-large.jpg);
         background-repeat: no-repeat;
         background-position: center;
@@ -615,6 +718,73 @@
         margin: 5px;
     }
 
+
+
+    #discover-main {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 6(1fr);
+        margin: 5px;
+    }
+
+    #discover-hero {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .discover-img {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    #discover-img-1 {
+        background-image: url(/wdd230/chamber/images/northtopsail.jpg);
+        text-align: center;
+        
+        grid-column: 1;
+        grid-row: 2;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
+    }
+
+    #discover-img-2 {
+        background-image: url(/wdd230/chamber/images/boatdock.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 3;
+        width: 100%;
+        height: 200px;
+        margin: 0 5px 0 0;
+    }
+    #discover-img-3 {
+        background-image: url(/wdd230/chamber/images/sharkstore.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 4;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
+    }
+    #discover-img-4 {
+        background-image: url(/wdd230/chamber/images/shrimpfest.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 5;
+        width: 100%;
+        height: 200px;
+        margin: 0 5px 0 0;
+    }
+    #discover-img-5 {
+        background-image: url(/wdd230/chamber/images/sneadsferrygolf.jpg);
+        text-align: center;
+        grid-column: 1;
+        grid-row: 6;
+        width: 100%;
+        height: 200px;
+        margin: 5px 5px 5px 0;
+    }
+
     /* Footer */
 
     #footer {
@@ -644,4 +814,19 @@
         text-align: center;
     }
 
+}
+
+
+.discover-img-text {
+    position: absolute;
+    text-align: center;
+    background-color: #AADCEE;
+    color: #fff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity .2s, visibility.2s;
+}
+.discover-img:hover .discover-img-text {
+    visibility: visible;
+    opacity: 1;
 }

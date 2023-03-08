@@ -101,12 +101,14 @@
         margin: 5px;
     }
 
-    #hero {
+    .hero {
         grid-row: 1;
         width: 100%;
         height: 200px;
         margin-top: 20px;
         background-image: url(/wdd230/chamber/images/sneadsferryhero.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
     #joinElement {
@@ -137,8 +139,11 @@
         margin-top: 10px;
     }
 
+    .discover-img {
+        background-repeat: no-repeat;
+        background-position: center;
+    }
     
-
     #discover-img-1 {
         background-image: url(/wdd230/chamber/images/northtopsail.jpg);
         text-align: center;

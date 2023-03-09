@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../chamber/styles/style.css">
+</head>
+<body id="content">
+    <header id="header">
+        <div id="topnav">
+            <img id="logo" alt="sitelogo" src="images/logo.jpg">
+            <h1 id="topnav1">Sneads Ferry </h1>
+            <h2 id="topnav2">Chamber of Commerce</h2>
+            <div class="menu" onclick="clickMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                    <!-- <div id="dropPages" class="dropdown-content">
+                        <a href="https://aaronrod3.github.io/wdd230/chamber/discover.html">Discover</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                      </div> -->
+                </div>
+            </div>
+        </div>
+        <div id="bottomnav">
+            <h2>Todays Date</h2>
+        </div>
+    </header>
+    <main id="joinmain" class="main">
+        <h1 id="formheader">Join Form</h1>
+        <form id="joinform" action="/wdd230/chamber/thankyou.html">
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" type="text" required>
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="lastname" type="text" required>
+            
+            <label for="position">Position</label>
+            <input id="postiion" name="postiion" type="text">
+
+            <label for="email">Email</label>
+            <input id="email" name="email" type="text" required placeholder="johndoe@email.com">
+
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" required>
+
+            <label for="membershiplevel">Select Membership Level</label>
+            <select id="membershiplevel" name="membershiplevel">
+                <option></option>
+                <option value="NP">NP Membership</option>
+                <option value="Bronze">Bronze</option>
+                <option value="Silver">Silver</option>
+                <option value="Gold">Gold</option>
+            </select>
+
+            <label for="bus-description">Business Description</label>
+            <textarea id="bus-description" name="bus-description"></textarea>
+            <button id="submit" name="submit">Submit</button>
+        </form>
+    </main>
+
+
+    <footer id="footer">
+        <img id="footerlogo" alt="sitelogo" src="images/logo.jpg">
+        <p id="footerp">Sneads Ferry Chamber of Commerce</p>
+        <p id="footername">&copy 2023 | Aaron B. Rodriguez | Last Updated: <a id="lastUpdated">date</a></p>
+    </footer>
+    <script>
+        // form inputs
+function formSubmit() {
+    let firstName = document.querySelector("#firstname").value;
+    let lastName = document.querySelector("#lastname").value;
+    let position = document.querySelector("#position").value;
+    let email = document.querySelector("#email").value;
+    let phone = document.querySelector("#phone").value;
+    let membershipLevel = document.querySelector("#membershiplevel").value;
+    let membershipLevelSelected = membershipLevel.value;
+    let busDescription = document.querySelector("#bus-description").value;
+    let formData = console.log(firstName, lastName, position, email, phone, membershipLevelSelected,busDescription);
+    return formData;
+}
+
+document.querySelector("#submit").addEventListener("click", formSubmit)
+    </script>
+</body>
+</html>

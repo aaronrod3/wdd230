@@ -35,28 +35,3 @@ else {
 document.getElementById("dateDiff").innerHTML = days;
 
 
-
-
-// function doStuff(data) {
-//     let hightemp = document.querySelector('#hightemp');
-//     hightemp.textContent = data.days.tempmax;
-//     let lowtemp = document.querySelector('#lowtemp');
-//     lowtemp.textContent = data.days.tempmin;
-//     let currenttemp = document.querySelector('#currrenttemp');
-//     currenttemp.textContent = data.days.temp;
-//     let condition = document.querySelector('#condition');
-//     condition.textContent = data.days.conditions;
-//     let humidity = document.querySelector('#humidity');
-//     humidity.textContent = data.days.humidity;
-// }
-
-// async function getWeather(url) {
-//     const response = await fetch(url);
-
-//     if (response.ok) {
-//         const data = await response.json();
-//         doStuff(data);
-//     }
-// }
-
-// getWeather(url)

@@ -35,3 +35,39 @@ else {
 document.getElementById("dateDiff").innerHTML = days;
 
 
+const businessurl = '../chamber/data.json';
+
+const displayBusiness = (business) => {
+    const cards = document.querySelector('div.cards');
+
+    businesses.forEach((business) => {
+        let img = document.createElement('img');
+        let name = document.createElement('h2');
+        let address = document.createElement('h2');
+        let phone = document.createElement('h3');
+        let website = document.createElement('h3');
+
+        portrait.setAttribute('src', businesses.image);
+        portrait.setAttribute('alt', `Image of ${business.name}`);
+        portrait.setAttribute('loading', 'lazy');
+        portrait.setAttribute('width', '340');
+        portrait.setAttribute('height', '440');
+        
+        card.appendChild(portrait);
+        card.appendChild(name);
+        card.appendChild(address);
+        card.appendChild(phone);
+        card.appendChild(website);
+
+        cards.appendChild(card);
+    })
+}
+
+async function getBusinessData() {
+    const response = await fetch(businessurl);
+    const data = await response.json();
+    // console.table(data.prophets);  // note that we reference the prophet array of the data object given the structure of the json file
+    displayBusiness(data.businesses);
+  }
+  
+ getBusinessData();

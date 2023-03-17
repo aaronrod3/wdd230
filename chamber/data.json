@@ -5,7 +5,6 @@
             "address": "NC",
             "phonenumber": "https://photospre.mypixieset.com/contact/",
             "url": "https://photospre.mypixieset.com/",
-            "image": "../chamber/images/photospre.jpg",
             "membershiplevel": "Gold"
         },
         {
@@ -13,7 +12,6 @@
             "address": "2427 NC-172, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 934-5282",
             "url": "https://midgett-sons-crab-company.business.site/?utm_source=gmb&utm_medium=referral",
-            "image": "../chamber/images/midgettcrabco.jpg",
             "membershiplevel": "Bronze"
         },
         {
@@ -21,7 +19,6 @@
             "address": "113 Silver Sands Dr, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 340-2580",
             "url": "https://www.coffeehavennc.com/",
-            "image": "../chamber/images/coffeehaven.jpeg",
             "membershiplevel": "Gold"
         },
         {
@@ -29,7 +26,6 @@
             "address": "2271 NC-172, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 327-3071",
             "url": "",
-            "image": "../chamber/images/",
             "membershiplevel": "Bronze"
         },
         {
@@ -37,7 +33,6 @@
             "address": "1044 State Hwy 210, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 741-0367",
             "url": "https://www.fatburgerssportsbar.com/",
-            "image": "../chamber/images/fatburger.png",
             "membershiplevel": "Silver"
         },
         {
@@ -45,7 +40,6 @@
             "address": "1092 State Hwy 210, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 541-0745",
             "url": "https://www.cancunnc.com/",
-            "image": "../chamber/images/Cancun_logo.png",
             "membershiplevel": "Silver"
         },
         {
@@ -53,7 +47,6 @@
             "address": "1295 State Hwy 210, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 327-1222",
             "url": "",
-            "image": "../chamber/images/sharkstore.jpg",
             "membershiplevel": "bronze"
         },
         {
@@ -61,7 +54,6 @@
             "address": "101 N Shore Dr, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 327-2410",
             "url": "http://northshoregolfcoursenc.com/",
-            "image": "../chamber/images/golfcourse.png",
             "membershiplevel": ""
         },
         {
@@ -69,7 +61,6 @@
             "address": "2135 NC-172, Sneads Ferry, NC 28460",
             "phonenumber": "(910) 327-3646",
             "url": "https://www.acehardware.com/store-details/16801?utm_source=google&utm_medium=local&utm_campaign=localmaps&utm_content=16801",
-            "image": "../chamber/images/acehardware.jpg",
             "membershiplevel": "Bronze"
         }
     ]

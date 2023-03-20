@@ -67,6 +67,11 @@
     }
     /* hide links */
     #topnav #myLinks {
+        grid-column: 3;
+        grid-row: 2;
+        font-weight: bold;
+        color: black;
+        text-align: right;
         display: none;
     }
 
@@ -108,18 +113,7 @@
     transition: 0.4s;
 }
 
-/* Rotate first bar */
-.change .bar1 {
-    transform: translate(0, 11px) rotate(-45deg);
-}
 
-/* Fade out the second bar */
-.change .bar2 {opacity: 0;}
-
-/* Rotate last bar */
-.change .bar3 {
-    transform: translate(0, -11px) rotate(45deg);
-}
 
     #bottomnav {
         grid-row: 2;

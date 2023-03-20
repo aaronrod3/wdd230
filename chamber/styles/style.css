@@ -925,6 +925,10 @@ label{
     text-align: center;
 }
 
+#directorymain .cards {
+    border: 1px solid;
+}
+
 
 .discover-img-text {
     position: absolute;

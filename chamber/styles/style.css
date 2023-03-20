@@ -65,27 +65,61 @@
         grid-column: 3;
         grid-row: 1/3;
     }
-
-    .bar1, .bar2, .bar3 {
-        width: 35px;
-        height: 5px;
-        background-color: #333;
-        margin: 6px 0;
-        transition: 0.4s;
+    /* hide links */
+    #topnav #myLinks {
+        display: none;
     }
 
-    /* Rotate first bar */
-    .change .bar1 {
-        transform: translate(0, 11px) rotate(-45deg);
-    }
-    
-    /* Fade out the second bar */
-    .change .bar2 {opacity: 0;}
-    
-    /* Rotate last bar */
-    .change .bar3 {
-        transform: translate(0, -11px) rotate(45deg);
-    }
+    /* Style navigation menu links */
+.topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a#icon {
+    background: black;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  /* Add a grey background color on mouse-over */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Style the active link (or home/logo) */
+  .active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    transform: translate(0, 11px) rotate(-45deg);
+}
+
+/* Fade out the second bar */
+.change .bar2 {opacity: 0;}
+
+/* Rotate last bar */
+.change .bar3 {
+    transform: translate(0, -11px) rotate(45deg);
+}
 
     #bottomnav {
         grid-row: 2;

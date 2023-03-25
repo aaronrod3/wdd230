@@ -206,6 +206,15 @@
         margin-top: 10px;
     }
 
+    #directorymain{
+        text-align: center;
+    }
+    #directorymain .cards section{
+        border: 1px solid;
+        margin: 5px;
+        text-align: center;
+    }
+
 
     #weatherElement {
         grid-row: 3;
@@ -265,7 +274,7 @@
         border: 1px solid;
         margin-top: 10px;
         display: grid;
-        grid-template-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
 
     }
 
@@ -277,6 +286,11 @@
 
     #spotlight2 {
         grid-row: 2;
+        border: 1px solid;
+        margin: 5px;
+    }
+    #spotlight3 {
+        grid-row: 3;
         border: 1px solid;
         margin: 5px;
     }
@@ -923,10 +937,6 @@ label{
 
 #tymain {
     text-align: center;
-}
-
-#directorymain .cards {
-    border: 1px solid;
 }
 
 

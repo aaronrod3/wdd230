@@ -167,6 +167,10 @@
         margin-top: 10px;
     }
 
+    #discover-main h2 {
+        color: black;
+    }
+
     .discover-img {
         background-repeat: no-repeat;
         background-position: center;
@@ -213,6 +217,7 @@
         border: 1px solid;
         margin: 5px;
         text-align: center;
+        word-wrap: break-word;
     }
 
 
